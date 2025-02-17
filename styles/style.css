@@ -7,6 +7,7 @@ White: #FFF
 
 */
 * {
+    box-sizing: border-box;
     /*border: 1px solid black; */
 }
 /** tags selectors */
@@ -16,6 +17,7 @@ a {
 }
 body {
     padding-top: 60px;
+    font-family: Helvetica, sans-serif;
 }
 /** los selectores de clase respetando en lo que pueda la estrctura HTML */
 
@@ -47,12 +49,29 @@ body {
 
 .hero {
     height: 600px;
-    background: white url('../images/landing.jpg') no-repeat center / cover;
-}
-.hero__title {
+    background: white url('../images/landing.jpg') no-repeat center bottom / cover;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
+.hero > div {
+    width: 60%;
+    text-align: center;
+}
+
+.hero__title {
+font-size: 3rem;
+}
+
+.hero__description {
+    font-size: 2rem;
+}
 
 /** --------------------------- FOOTER ----------------------- */
 
+.footer {
+
+}
