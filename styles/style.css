@@ -6,3 +6,34 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    /*border: 1px solid black; */
+}
+/** tags selectors */
+
+a {
+    text-decoration: none;
+}
+
+/** los selectores de clase respetando en lo que pueda la estrctura HTML */
+
+/** ---------------- NAVBAR ---------------------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.navbar__logo{
+    width: 200px;
+}
+.navbar__links{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+/** --------------------------- FOOTER ----------------------- */
+
