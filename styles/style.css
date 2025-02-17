@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     padding: 1rem;
     position: fixed;
     top: 0px;
@@ -41,6 +42,17 @@ body {
 .navbar__links a {
     color: #1A1A1A;
 }
+
+/** HERO section **/
+
+.hero {
+    height: 600px;
+    background: white url('../images/landing.jpg') no-repeat center / cover;
+}
+.hero__title {
+    color: white;
+}
+
 
 /** --------------------------- FOOTER ----------------------- */
 
