@@ -70,6 +70,34 @@ font-size: 3rem;
     font-size: 2rem;
 }
 
+/** SECTION FEATURES**/
+
+.spotify__title{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.features article {
+    flex: 1 0 0;
+    max-width: 250px;
+}
+    
+.features article h3 {
+    color: #00B172;
+}
+
+
+
+
 /** --------------------------- FOOTER ----------------------- */
 
 .footer {
