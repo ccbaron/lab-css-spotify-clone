@@ -17,7 +17,7 @@ a {
 }
 body {
     padding-top: 60px;
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 /** los selectores de clase respetando en lo que pueda la estrctura HTML */
 
@@ -89,10 +89,23 @@ font-size: 3rem;
 .features article {
     flex: 1 0 0;
     max-width: 250px;
+    padding-top: 60px;
 }
-    
+
 .features article h3 {
     color: #00B172;
+}
+
+.features__songs {
+    background: white url('../images/music-icon.png') no-repeat center top / 75px;
+}
+
+.features__music {
+    background: white url('../images/high-quality-icon.png') no-repeat center top / 75px;
+}
+
+.features__stream {
+    background: white url('../images/devices-icon.png') no-repeat center top / 75px;
 }
 
 
