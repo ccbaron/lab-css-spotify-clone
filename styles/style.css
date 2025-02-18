@@ -10,15 +10,18 @@ White: #FFF
     box-sizing: border-box;
     /*border: 1px solid black; */
 }
+
 /** tags selectors */
 
 a {
     text-decoration: none;
 }
+
 body {
     padding-top: 60px;
     font-family: sans-serif;
 }
+
 /** los selectores de clase respetando en lo que pueda la estrctura HTML */
 
 /** ---------------- NAVBAR ---------------------------------- */
@@ -33,14 +36,17 @@ body {
     top: 0px;
     width: 100%;
 }
-.navbar__logo{
+
+.navbar__logo {
     width: 200px;
 }
-.navbar__links{
+
+.navbar__links {
     list-style-type: none;
     display: flex;
     gap: 1rem;
 }
+
 .navbar__links a {
     color: #1A1A1A;
 }
@@ -57,13 +63,13 @@ body {
 
 }
 
-.hero > div {
+.hero>div {
     width: 60%;
     text-align: center;
 }
 
 .hero__title {
-font-size: 3rem;
+    font-size: 3rem;
 }
 
 .hero__description {
@@ -72,7 +78,11 @@ font-size: 3rem;
 
 /** SECTION FEATURES**/
 
-.spotify__title{
+.spotify {
+    margin: 2rem 0;
+}
+
+.spotify__title {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #00B172;
@@ -80,10 +90,11 @@ font-size: 3rem;
     text-underline-offset: 10px;
 }
 
-.features{
+.features {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .features article {
@@ -95,6 +106,11 @@ font-size: 3rem;
 .features article h3 {
     color: #00B172;
 }
+
+.features p {
+    color: #1A1A1A;
+}
+
 
 .features__songs {
     background: white url('../images/music-icon.png') no-repeat center top / 75px;
@@ -108,11 +124,37 @@ font-size: 3rem;
     background: white url('../images/devices-icon.png') no-repeat center top / 75px;
 }
 
+.actions {
+    color: white;
+    background-color: #00B172;
+    padding: 3rem;
+    background: #00B172 url("../images/spotify-app.jpg") no-repeat 90% center / 200px;
+    position: relative;
+}
+
+.actions__title {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.actions > article {
+    margin-top: 50%;
+    width: 50%;
+    max-width: 300px;
+}
+
+.spotify-icon {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
 /** --------------------------- FOOTER ----------------------- */
 
-.footer {
-
-}
+.footer {}
