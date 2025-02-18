@@ -140,9 +140,11 @@ body {
 }
 
 .actions > article {
-    margin-top: 50%;
+    margin-top: 5%;
     width: 50%;
     max-width: 300px;
+    display: flex;
+    display: inline-block;
 }
 
 .spotify-icon {
